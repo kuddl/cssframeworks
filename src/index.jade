@@ -1,0 +1,241 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title CSS Frameworks und CSS Gridssysteme
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        h1 CSS Frameworks
+
+      section
+        h2 Wizo
+        h3.bullet  Effizienz 
+          .bullet (Faulheit)
+        ul.bullet
+          li Da hat sich jemand schon Gedanken gemacht
+          li Das ist auf vielen Webseiten im Einsatz
+          li Die "Defaults" sind schon mal gesetzt (Modernizr/Reset.css etc)
+          li Forms und Grid und Componenten aus einer Hand (vs. Copy+Plug jQuery Chaos)
+          li Sexy (?)
+
+      section
+        h2 Wizo nicht
+        h3.bullet  Effizienz 
+          .bullet (Selbermachen)
+        ul.bullet
+          li Ich mach alles selbst, dann weiss ich was ich tue
+          li Ich möchte nicht auch noch ein Framework "lernen"
+          li Mit Less/Sass kann ich mir ein kleines Framework selbst bauen
+          li Ich brauch nur 10% von dem Framework und möchte nicht 90% Ballast mit mir rumschleppen
+          li Das Framework bietet nicht die Funktionen, die ich brauche
+          li Sexy kann ich selber
+
+      section
+        h2.bullet Die Auserwählten
+        h3.bullet 
+          a(href="http://getbootstrap.com/") Twitter Bootstrap v3.2 
+        h3.bullet 
+          a(href="http://http://foundation.zurb.com/") Zurb Foundation 5 
+        h3.bullet 
+          a(href="http://purecss.io/") Pure by Yahooooo  v0.5.0
+        h3.bullet 
+          a(href="http://ink.sapo.pt/") Ink by Sapo
+
+      section
+        h2
+          a(href="http://getbootstrap.com/") Twitter Bootstrap v3.2 
+        ul.bullet
+          li Bootstrap is the most popular &hellip;
+          li &hellip; HTML, CSS, and JS framework 
+          li &hellip; for developing responsive, mobile first projects on the web.
+          li Less, Sass und Vanilla CSS
+          li Große Coderschaft, Gute Doku, viele Tutorials
+          li Grunt Task
+          li 
+            a(href="http://getbootstrap.com/customize/") Konfigurator für Less Files
+          li.achtung  all JavaScript plugins require jQuery  
+          li 
+            a(href="http://expo.getbootstrap.com/") Showcase
+
+      section
+        h2
+          a(href="http://http://foundation.zurb.com/") Zurb Foundation 5 
+        ul.bullet
+          li The most advanced responsive  &hellip;
+          li &hellip; front-end framework in the world. 
+          li Faster for/to Users - Code - Learn
+          li Mobile First
+          li Sass (Vanilla CSS)
+          li CLI (Grunt  Bower)
+          li 
+            a(href="http://foundation.zurb.com/docs/sass.html") Konfigurator SASS Custom Build
+          li.achtung  all JavaScript plugins require jQuery  
+          li 
+            a(href="http://foundation.zurb.com/learn/case-washington-post.html") Case Studies
+
+
+      section
+        h2
+          a(href="http://purecss.io/") Pure
+        ul.bullet
+          li A set of small, responsive CSS modules  &hellip;
+          li &hellip; that you can use in every web project.
+          li Stays out of your way.
+          li 
+            a(href="http://smacss.com/") SMACSS Konvention  
+          li CSS only based on 
+            a(href="http://necolas.github.io/normalize.css/") Normalize.css
+          li CSS only based on 
+            a(href="http://yui.github.io/skinbuilder/?mode=pure") Skin Builder
+          li 
+            a(href="http://purecss.io/layouts/") Templates
+          li Grunt Helpers
+          li 
+            a(href="http://yui.github.io/skinbuilder/?mode=pure") Skin Builder
+
+      section
+        h2
+          a(href="http://ink.sapo.pt/") Ink
+        ul.bullet
+          li Create responsive web interfaces  &hellip;
+          li &hellip; quick and efficiently.
+          li.grossbuchstaben LIGHTNING FAST RESPONSIVE WEB DEVELOPMENT.
+          li SASS
+          li Using raw JavaScript 
+            .kleingedrucktes (Ink comes with a highly powerful and completely modular JavaScript library packed full of browser whipping goodness.)
+
+      section
+        h2 Zusammengefasst
+        ul.bullet
+          li Bootstrap und Foundation sind die Umfangreichsten
+          li Pure ist CSS only
+          li Ink ist eine gute Alternative (jQuery frei)
+          li alle haben Grids 
+          li &hellip;
+          li &hellip;
+          li &hellip;
+          li.fragezeichen Was sind Grids
+          li &hellip;
+
+
+
+
+
+      section
+        h2 Definition
+        p
+          Layout Grids sind eine unsichtbare Grundlage um visuellen Zusammenhalt in einem magazin oder Webseite sicherzustellen.
+          Grundsätzlich unterteilen sie den zur verfügungstehenden Platz in horizontale und verticale gleichbleibende Einheiten, 
+          in welche Text, Bilder, Überschriften usw. angeordnet werden könnnen.
+      
+      section
+        h2 Vorteile
+        ul.bullet
+          li Konsistentes Design
+          li Reduktion von CSS-Fehlern
+          li Funktioniert wie ein Wireframe
+          li Relativ unkompliziert Änderungen durchführen
+          li Cross-Browser-Support
+          li.achtung Schnelle Entwicklung von Prototypen
+
+
+      section
+        h2 Gemeinsamkeiten / Unterschiede der Systeme
+        ul.bullet
+          li gut Teilbare Spaltenzahl (12,16,24)
+          li Horizontale Raster, Vertikale "Freiheit"
+          li Zeilenbasiert: die Zeile braucht (meist) ein "clear"
+          li Kommen ohne JavaScript aus
+          li erste und letzter "Baustein" macht meist "Probleme"
+          li 
+          li Px, Em, Prozent Grids
+          li Pre-Prozessoren bieten neue Möglichkeiten (Semantic Grids)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//- http://unsemantic.com/
+//- http://lessframework.com/
+//- http://semantic.gs/
+//- http://framelessgrid.com/
+//- http://stuffandnonsense.co.uk/projects/320andup/
+//- http://www.gridpak.com/
+//- http://gridinator.com/
+
+
+      //- section
+      //-   h2 Keyboard Interaction
+      //-   h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
+
+      //- section
+      //-   h2 Touch Interaction
+      //-   h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
+
+      //- section
+      //-   h2 Responsive Slides
+      //-   h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
+
+      //- section
+      //-   h2 Bullet List
+      //-   h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
+      //-   ul
+      //-     li Bullet 1
+      //-     li Bullet 2
+      //-     li Bullet 3
+
+      //- section
+      //-   h2 Syntax Highlighting
+      //-   h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
+      //-   pre
+      //-     code.language-javascript.
+      //-       bespoke.from('article', [
+      //-         classes(),
+      //-         keys(),
+      //-         touch(),
+      //-         bullets('li, .bullet')
+      //-       ]);
+
+      //- section(data-bespoke-hash='named-route')
+      //-   h2 Named Route
+      //-   h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
+      //-   p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+
+      //- section(data-bespoke-state='emphatic')
+      //-   h2 Emphatic Slide!
+      //-   h3 Powered by <a href="https://github.com/markdalgleish/bespoke-state">bespoke-state</a>
+
+      //- section
+      //-   h2.bullet Just the beginning...
+      //-   br
+      //-   ul
+      //-     li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
+      //-     li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
+      //-     li Edit JavaScript in <em>'src/scripts/main.js'</em>
+      //-   br
+      //-   ul
+      //-     li
+      //-       strong Enjoy! :)
+      //-       a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+
+    script(src='build/build.js')
