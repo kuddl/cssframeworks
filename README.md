@@ -1,17 +1,25 @@
-# Hello World
-> A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
+# CSS Frameworks und Gridsysteme
 
-## View slides locally
+Für den Techtalk bei Seitenbau GmbH.
 
-First, ensure you have the following installed:
-
-1. [Node.js](http://nodejs.org)
-2. [Bower](http://bower.io): `$ npm install -g bower`
-3. [Gulp](http://gulpjs.com): `$ npm install -g gulp`
-
-Then, install dependencies and run the preview server:
+Präsi local runterladen.
 
 ```bash
+$ git clone https://github.com/kuddl/cssframeworks.git
 $ npm install && bower install
+```
+
+Präsi bauen
+```bash
+$ gulp
+```
+Präsi lokal anschauen und Änderungen überwachen
+```bash
 $ gulp serve
 ```
+
+## Danke an 
+
+Thanks To 
+
+> A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
